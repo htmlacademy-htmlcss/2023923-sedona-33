@@ -2,7 +2,7 @@
 
 * Студент: [Варвара Аверина](https://up.htmlacademy.ru/htmlcss/33/user/2023923).
 <<<<<<< HEAD
-* Наставник: [Максим Волков] (https://htmlacademy.ru/profile/id1158117).
+* Наставник: [Максим Волков](https://htmlacademy.ru/profile/id1158117).
 =======
 
 ---
