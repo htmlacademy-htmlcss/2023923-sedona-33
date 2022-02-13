@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2") format(woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format(woff2);
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: black;
+    background-color: rgb(151, 186, 238);
+    
+}
+
+.page-header {
+    color: black;
+    background-color: white;
+}
+
+/*navigation*/
+
+.navigation__link {
+    font-family: "PT Sans", sans-serif;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.navigation-user__link {
+    font-family: "PT Sans", sans-serif;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+    
+}
+
+.main-index {
+    color: black;
+    background-color: white;
+    background-image: url(images/logo-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+/*adventages*/
+
+.advantages__list {
+    text-align: center;
+}
+
+.advantage__title {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+/* services*/
+
+.services__list {
+    text-align: center;
+}
+
+.services__title {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.services__item-hotel {
+    color: #333333;
+    background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services__item-eat {
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+.services__item-souvenir {
+    color: #333333;
+    background-color: rgba(131, 179, 211, 0.12);
+}
+
+/*footer*/
+
+.page-footer {
+    color: black;
+    background-color: white;
+}
