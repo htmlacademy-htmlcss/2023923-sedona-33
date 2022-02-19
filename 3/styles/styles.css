@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2") format(woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format(woff2);
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: black;
+    background-color: white;
+    
+}
+
+.page-header {
+    color: black;
+    background-color: white;
+    list-style: none;
+}
+
+/*navigation*/
+
+.navigation__link {
+    font-family: "PT Sans", sans-serif;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: left;
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+.navigation-user__link {
+    font-family: "PT Sans", sans-serif;
+    line-height: 26px;
+    font-weight: 700;
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+    text-align: right;
+}
+
+
+.main-index {
+    color: black;
+    background-color: white;
+    background-image: url(../images/logo-background.jpg);
+    background-size: 1200px 485px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/*reasons*/
+
+.reasons {
+    font-family: "PT Sans", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.reasons__heading {
+    color: rgba(0, 0, 0, 1);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.reasons__text {
+    color: rgba(51, 51, 51, 1);
+    font-size: 22px;
+}
+
+/*adventages*/
+
+.advantages__list {
+    text-align: center;
+    list-style: none;
+}
+
+.advantages__title {
+    color: #000000;
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.advantages__description {
+    color: #333333;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.advantage-urban, .advantage-natural {
+    background-color: rgba(131, 179, 211, 1);
+}
+
+.advantage-urban h3, .advantage-urban p, .advantage-natural h3, .advantage-natural p {
+    color: white;
+}
+
+.advantage-landmark, .advantage-peaple {
+   
+    background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantage-way {
+   
+    background-color: rgba(131, 179, 211, 0.2);
+}
+
+
+
+/* services*/
+
+.services__list {
+    text-align: center;
+    list-style: none;
+}
+
+.services__title {
+    color: #000000;
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.services__item-hotel, .services__item-souvenir {
+    background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services__item-eat {
+    background-color: #FFFFFF;
+}
+
+.services__item-hotel p, .services__item-souvenir p, .services__item-eat p {
+    color: #333333;
+}
+
+/*search-hotel*/
+
+.search-hotel {
+    font-family: "PT Sans", sans-serif;
+    text-align: center;
+}
+
+.search-hotel__heading {
+    color: #000000;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.search-hotel__text {
+    color: rgba(51, 51, 51, 1);
+    font-size: 22px;
+    line-height: 26px;
+}
+
+
+
+/*footer*/
+
+.page-footer {
+    color: black;
+    background-color: white;
+}
+
+/*footer-social*/
+
+.footer-social {
+    font-family: "PT Sans", sans-serif;
+    background-color: inherit;
+}
+
+.footer-social__item a {
+    color: #000000;
+}
+
+
+/*footer-contacts */
+
+/*.footer-contacts {}*/
+
+.footer-contacts--phone {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/*footer-made-in*/
+
+/*.footer-made-in {}*/
+
+.htmlacademy-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*button*/
+
+.button {
+    color: #FFFFFF;
+    background-color: #756257;
+    text-decoration: none;
+}
+
+.button-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    background-size: 160px 37 px; /*разобраться как закруглить края*/
+    border-radius: 4px;
+}
+
+.button__search-hotel {
+    font-size: 20px;
+    line-height: 36px;
+    background-size: 575px 60px;
+    border-radius: 10px ;
+}
