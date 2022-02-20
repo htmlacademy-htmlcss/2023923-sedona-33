@@ -18,14 +18,18 @@ body {
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     line-height: 26px;
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color: #FFFFFF;
     
 }
 
+ul {
+    list-style: none;
+}
+
 .page-header {
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color: #FFFFFF;
     list-style: none;
 }
 
@@ -52,9 +56,9 @@ body {
 }
 
 
-.main-index {
-    color: black;
-    background-color: white;
+.main {
+    color: #000000;
+    background-color: #FFFFFF;
     background-image: url(../images/logo-background.jpg);
     background-size: 1200px 485px;
     background-repeat: no-repeat;
@@ -71,13 +75,13 @@ body {
 }
 
 .reasons__heading {
-    color: rgba(0, 0, 0, 1);
+    color: #000000;
     font-size: 30px;
     text-transform: uppercase;
 }
 
 .reasons__text {
-    color: rgba(51, 51, 51, 1);
+    color: #333333;
     font-size: 22px;
 }
 
@@ -96,26 +100,26 @@ body {
     text-transform: uppercase;
 }
 
-.advantages__description {
+.advantage__description {
     color: #333333;
     font-size: 18px;
     line-height: 21px;
 }
 
-.advantage-urban, .advantage-natural {
-    background-color: rgba(131, 179, 211, 1);
+.text-color-white {
+    background-color: #83B3D3;
 }
 
-.advantage-urban h3, .advantage-urban p, .advantage-natural h3, .advantage-natural p {
-    color: white;
+.text-color-white {
+    color: #FFFFFF;
 }
 
-.advantage-landmark, .advantage-peaple {
+.text-color-lightblue {
    
-    background-color: rgba(131, 179, 211, 0.12);
+    background-color: rgba(131, 179, 211, 0.12);;
 }
 
-.advantage-way {
+.text-color-blue {
    
     background-color: rgba(131, 179, 211, 0.2);
 }
@@ -137,7 +141,7 @@ body {
     text-transform: uppercase;
 }
 
-.services__item-hotel, .services__item-souvenir {
+.services__item--hotel, .services__item--souvenir {
     background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -145,7 +149,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.services__item-hotel p, .services__item-souvenir p, .services__item-eat p {
+.services__item--hotel p, .services__item--souvenir p, .services__item--eat p {
     color: #333333;
 }
 
@@ -156,7 +160,7 @@ body {
     text-align: center;
 }
 
-.search-hotel__heading {
+.search-hotel__title {
     color: #000000;
     font-size: 30px;
     line-height: 36px;
@@ -164,7 +168,7 @@ body {
 }
 
 .search-hotel__text {
-    color: rgba(51, 51, 51, 1);
+    color: #333333;
     font-size: 22px;
     line-height: 26px;
 }
@@ -174,8 +178,8 @@ body {
 /*footer*/
 
 .page-footer {
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color: #FFFFFF;
 }
 
 /*footer-social*/
@@ -220,7 +224,7 @@ body {
 .button-navigation {
     font-size: 16px;
     line-height: 20px;
-    background-size: 160px 37 px; /*разобраться как закруглить края*/
+    /*    background-size: 160px 37 px; */
     border-radius: 4px;
 }
 
