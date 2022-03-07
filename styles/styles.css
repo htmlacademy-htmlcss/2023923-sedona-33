@@ -14,13 +14,24 @@
     font-display: swap;
 }
 
+
+html {
+    height: 100%;
+}
+
+
 body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     line-height: 26px;
     color: #000000;
     background-color: #FFFFFF;
     
+   outline: 5px solid lavender ;
+   outline-offset: -5px;  
 }
 
 ul {
@@ -34,6 +45,24 @@ ul {
 }
 
 /*navigation*/
+
+.navigation {
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+    padding: 0 70px;
+}
+
+.navigation__list {
+    margin: 0;
+    padding: 0;
+    width: 484px;
+}
+
+.navigation-user {
+    max-width: 264px;
+    margin-left: auto;
+}
 
 .navigation__link {
     font-family: "PT Sans", sans-serif;
@@ -55,14 +84,34 @@ ul {
     text-align: right;
 }
 
+/* main */
 
 .main {
-    color: #000000;
-    background-color: #FFFFFF;
-    background-image: url(../images/logo-background.jpg);
-    background-size: 1200px 485px;
-    background-repeat: no-repeat;
     text-align: center;
+
+    background-color: #FFFFFF;
+}
+
+
+.main-container {
+    flex-grow: 1; 
+}
+
+
+.page-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main__logo-container {
+    background-image: url(../images/Vector-background.png), url(../images/logo-background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+}
+
+.main__logo-sedona {
+    margin: 0 auto;
+    padding: 51px 0 82px 0;
 }
 
 /*reasons*/
@@ -88,8 +137,20 @@ ul {
 /*adventages*/
 
 .advantages__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+
     text-align: center;
     list-style: none;
+}
+
+.advantages__item {
+    width: 400px;
+    height: 384px;
 }
 
 .advantages__title {
@@ -106,52 +167,48 @@ ul {
     line-height: 21px;
 }
 
-.text-color-white {
+.advantages__item--text-color-white {
+    color: white;
+    background-color: #83B3D3;
+    
+}
+
+.advantages__item--big {
+    display: flex;
+    width: 1200px;
+}
+
+.advantages__item--text-color-white .advantage__title,
+.advantages__item--text-color-white .advantage__description {
+    color: white;
+
+}
+.advantages__item--text-color-white:nth-child(2) {
+    order: 1;
+}
+
+
+
+/* .text-color-white {
     background-color: #83B3D3;
 }
 
 .text-color-white {
     color: #FFFFFF;
-}
+} */
 
-.text-color-lightblue {
-   
-    background-color: rgba(131, 179, 211, 0.12);;
-}
-
-.text-color-blue {
-   
-    background-color: rgba(131, 179, 211, 0.2);
-}
-
-
-
-/* services*/
-
-.services__list {
-    text-align: center;
-    list-style: none;
-}
-
-.services__title {
-    color: #000000;
-    font-family: "PT Sans", sans-serif;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
-}
-
-.services__item--hotel, .services__item--souvenir {
+.advantages__item--bg-color-lightblue {
     background-color: rgba(131, 179, 211, 0.12);
 }
 
-.services__item-eat {
-    background-color: #FFFFFF;
+.advantages__item--bg-color-blue {
+    background-color: rgba(131, 179, 211, 0.2);
 }
 
-.services__item--hotel p, .services__item--souvenir p, .services__item--eat p {
-    color: #333333;
+.advantages__item--priority {
+    order: 2;
 }
+
 
 /*search-hotel*/
 
@@ -177,6 +234,13 @@ ul {
 
 /*footer*/
 
+.page-footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .page-footer {
     color: #000000;
     background-color: #FFFFFF;
@@ -185,32 +249,31 @@ ul {
 /*footer-social*/
 
 .footer-social {
-    font-family: "PT Sans", sans-serif;
-    background-color: inherit;
 }
 
 .footer-social__item a {
     color: #000000;
 }
 
-
 /*footer-contacts */
-
-/*.footer-contacts {}*/
 
 .footer-contacts--phone {
     color: #000000;
     text-decoration: none;
+    width: 720px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
 /*footer-made-in*/
-
-/*.footer-made-in {}*/
 
 .htmlacademy-link {
     color: #000000;
     text-decoration: none;
+    width: 115px;
+    margin: 42px 72px 44px 53px;
 }
 
 /*button*/
