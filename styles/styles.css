@@ -178,7 +178,7 @@ ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+    text-align: center;
 
     margin: 0;
     padding: 0;
@@ -186,6 +186,8 @@ ul {
     text-align: center;
     list-style: none;
 }
+
+
 
 .advantages__item {
     width: 400px;
@@ -229,8 +231,9 @@ ul {
 }
 
 .advantages__item--bg-color-white {
-    align-items: center;
+    
 }
+
 
 
 /* .text-color-white {
@@ -255,6 +258,8 @@ ul {
     order: 2;
 
 }
+
+
 
 
 /*search-hotel*/
