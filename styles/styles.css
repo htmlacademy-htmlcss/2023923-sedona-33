@@ -61,6 +61,7 @@ ul {
     display: flex;
 
     width: 1060px;
+    height: 60px;
 
     margin: 0 auto;
     padding: 0 70px;
@@ -68,9 +69,10 @@ ul {
 
 .navigation__list {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
-    width: 484px;
+
+    width: 514px;
     list-style-type: none;
 
     margin: 0;
@@ -80,7 +82,8 @@ ul {
 
 .navigation-user {
     max-width: 264px;
-    margin-left: auto;
+    margin-left: 300px;
+    
 }
 
 .navigation__link {
@@ -111,13 +114,26 @@ ul {
     background-color: inherit;
     text-decoration: none;
     
-    padding: 20px 19px;
+   padding: 25px 12px;
+  
 }
 
 
 .navigation__list .navigation-user {
     min-width: 42px;
     min-height: 66px;
+}
+
+.navigation__link img {
+    position: relative;
+}
+
+.navigation__item {
+    display: flex;
+    align-items: center;
+
+    height: 70px;
+
 }
 
 /* main */
@@ -210,6 +226,7 @@ ul {
     line-height: 21px;
 }
 
+
 .advantages__item--text-color-white {
     align-items: center;
 
@@ -260,6 +277,7 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -316,14 +334,15 @@ ul {
 
 .footer-social__list {
     display: flex;
-    width: 107px;
+    width: 147px;
+    margin: 0;
     justify-content: space-between;
     
 }
 
 .footer-social__link {
     display: block;
-    
+
     background-color: #FFFFFF !important; 
 }
 
@@ -361,6 +380,8 @@ ul {
 /*button*/
 
 .button {
+    
+    padding: 9px 15px;
     color: #FFFFFF;
     background-color: #756257;
     text-decoration: none;
@@ -369,14 +390,26 @@ ul {
 .button-navigation {
     font-size: 16px;
     line-height: 20px;
-    /*    background-size: 160px 37 px; */
+
+    margin-top: 13px;
+    margin-left: 18px;
+    padding: 9px 35px;
+    
     border-radius: 4px;
 }
 
 .button__search-hotel {
+    display: inline-block;
+
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
     font-size: 20px;
+
     line-height: 36px;
-    background-size: 575px 60px;
+
     border-radius: 10px ;
+    padding: 15px 100px;
 }
 
